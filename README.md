@@ -2,7 +2,7 @@
 
 Un-official implementation of Amazon pay in React.
 
-[![CircleCI](https://circleci.com/gh/andriuspetrauskis/amazon-pay-react/tree/master.svg?style=svg)](https://circleci.com/gh/doppelganger113/amazon-pay-react/tree/master)
+[![CircleCI](https://circleci.com/gh/andriuspetrauskis/amazon-pay-react/tree/master.svg?style=svg)](https://circleci.com/gh/andriuspetrauskis/amazon-pay-react/tree/master)
 
 [![npm version](https://badge.fury.io/js/amazon-pay-react.svg)](https://badge.fury.io/js/amazon-pay-react)
 
@@ -31,11 +31,11 @@ Install
 --------
  - yarn
     ```bash
-    yarn add amazon-pay/react
+    yarn add @amazon-pay/react
     ```
  - npm
     ```bash
-    npm install amazon-pay/react
+    npm install @amazon-pay/react
     ```
     
 Getting started
@@ -44,7 +44,7 @@ Getting started
 #### Single page 
   For using all widgets on a single page importing `AmazonPay` should be enough:
 ```jsx
-import AmazonPay from 'amazon-pay/react';
+import AmazonPay from '@amazon-pay/react';
 
 <AmazonPay
         clientId='your-cliendId'
