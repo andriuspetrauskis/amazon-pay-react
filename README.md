@@ -2,13 +2,13 @@
 
 Un-official implementation of Amazon pay in React.
 
-[![CircleCI](https://circleci.com/gh/doppelganger113/amazon-pay-react/tree/master.svg?style=svg)](https://circleci.com/gh/doppelganger113/amazon-pay-react/tree/master)
+[![CircleCI](https://circleci.com/gh/andriuspetrauskis/amazon-pay-react/tree/master.svg?style=svg)](https://circleci.com/gh/doppelganger113/amazon-pay-react/tree/master)
 
 [![npm version](https://badge.fury.io/js/amazon-pay-react.svg)](https://badge.fury.io/js/amazon-pay-react)
 
-[![GitHub issues](https://img.shields.io/github/issues/doppelganger113/amazon-pay-react.svg)](https://github.com/doppelganger113/amazon-pay-react/issues)
+[![GitHub issues](https://img.shields.io/github/issues/andriuspetrauskis/amazon-pay-react.svg)](https://github.com/andriuspetrauskis/amazon-pay-react/issues)
 
-[![GitHub license](https://img.shields.io/github/license/doppelganger113/amazon-pay-react.svg)](https://github.com/doppelganger113/amazon-pay-react/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/andriuspetrauskis/amazon-pay-react.svg)](https://github.com/andriuspetrauskis/amazon-pay-react/blob/master/LICENSE)
 
 
 Table of Contents
@@ -31,11 +31,11 @@ Install
 --------
  - yarn
     ```bash
-    yarn add amazon-pay-react
+    yarn add amazon-pay/react
     ```
  - npm
     ```bash
-    npm install amazon-pay-react
+    npm install amazon-pay/react
     ```
     
 Getting started
@@ -44,7 +44,7 @@ Getting started
 #### Single page 
   For using all widgets on a single page importing `AmazonPay` should be enough:
 ```jsx
-import AmazonPay from 'amazon-pay-react';
+import AmazonPay from 'amazon-pay/react';
 
 <AmazonPay
         clientId='your-cliendId'
@@ -69,9 +69,10 @@ import AmazonPay from 'amazon-pay-react';
   | onAmazonLoginReady          | Function callback                                             | function |
   | onAddressSelect             | Function callback                                             | function |
   | onPaymentSelect             | Function callback                                             | function |
+  | onOrderReferenceCreate      | Function callback                                             | function |
   | handleAddressBookError      | Function callback                                             | function |
   | handleWalletOnPaymentSelect | Function callback, argument orderReference                    | function |
-  | handleWalletError           | Function callback                                             | function |
+  | handleWalletError           | Function callbck                                             | function |
   | handleConsentError          | Function callback                                             | function |
   | handleButtonError:          | Function callback                                             | function |
 

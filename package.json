@@ -1,5 +1,5 @@
 {
-  "name": "amazon-pay-react",
+  "name": "amazon-pay/react",
   "version": "0.7.3",
   "main": "dist/index.js",
   "license": "MIT",
